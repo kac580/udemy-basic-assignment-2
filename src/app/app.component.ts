@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basic-assignment2';
+  username = '';
+
+  onUpdateUserName(event:any){
+    this.username = event.target.value;
+  }
+
+  onCreateUserName(){
+    this.username
+  }
+
 }
+
